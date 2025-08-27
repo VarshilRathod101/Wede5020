@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Cakes-Order and Enquiry</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!--Navigation bar-->
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Orders and Enquiry</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <br>
+
+        <!-- Order and enquiry head banner-->
+        <img src="images/enquiry_banner.png" alt="" width="1520" height="350">
+
+    </header>
+
+    <main>
+        <!--Order section-->
+        <h1><u>Customer order</u></h1>
+
+        <!--image of order list-->
+        <img src="images/enquiry_list.png" alt="order list" width="285" height="200">
+
+        <form action="mailto:RoyalCakes4Life@gmail.com" method="post" enctype="text/plain">
+
+            <!--customer name-->
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name" required size="30"
+                maxlength="50"><br><br>
+
+            <!--customer email-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required size="30"
+                maxlength="50"><br><br>
+
+            <!--customer password-->
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required size="30"
+                maxlength="50" minlength="8"><br><br>
+
+            <!--customer number-->
+            <label for="phone">Phone number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your number" required size="15"
+                maxlength="15"><br><br>
+
+            <!--customer description-->
+            <label for="description">Order description:</label><br>
+            <textarea name="description" id="description" placeholder="Enter product name or description" required
+                rows="5" cols="50" maxlength="500"></textarea><br><br>
+
+            <!--optional customer image-->
+            <label for="image">Upload images(optional)</label>
+            <input type="file" name="image" id="image" accept="image/*"><br><br>
+
+            <!--Submission for order-->
+            <input type="submit" value="submit">
+
+        </form>
+        <br>
+
+        <!--review section-->
+        <fieldset>
+
+            <!--customer username-->
+            <legend>Customer review</legend>
+            <label for="name">Username</label>
+            <input type="text" name="name" placeholder="Enter your Username" required size="30" maxlength="50"><br><br>
+
+            <!--customer email-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" required size="30" maxlength="50"><br><br>
+
+            <!--customer password-->
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter your password" required size="30" maxlength="50"
+                minlength="8"><br><br>
+
+            <!--customer review-->
+            <label for="review">Review:</label><br>
+            <textarea name="review" id="review" placeholder="Enter your review" required rows="5" cols="50"
+                maxlength="500"></textarea><br><br>
+
+            <!--checkbox for famous flavours consumed -->
+            <p>Please select which famous flavours you have consumed:
+                <br>
+                <input type="checkbox" name="service" value="chocolate" checked="checked">Chocolate
+
+                <input type="checkbox" name="service" value="vanilla" checked="checked">Vanilla
+
+                <input type="checkbox" name="service" value="strawberry" checked="checked">Strawberry
+
+            </p>
+
+            <!--radio for best flavour-->
+            <p>Please select your best flavour :
+                <br>
+                <input type="radio" name="flavour" value="chocolate" checked="checked"> Chocolate
+                <input type="radio" name="flavour" value="vanilla"> Vanilla
+                <input type="radio" name="flavour" value="red velvet"> Red velvet
+                <input type="radio" name="flavour" value="carrot"> Carrot
+                <input type="radio" name="flavour" value="lemon"> Lemon
+                <input type="radio" name="flavour" value="strawberry"> Strawberry
+                <input type="radio" name="flavour" value="coffee"> Coffee
+                <input type="radio" name="flavour" value="caramel"> Caramel
+                <input type="radio" name="flavour" value="oreo"> Oreo
+
+            </p>
+
+            <!--submission for review-->
+            <input type="submit" value="Submit">
+
+        </fieldset>
+
+    </main>
+
+    <!--Footer section-->
+    <footer>
+        <p>&copy; 2025 Royal Cakes. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
