@@ -147,13 +147,19 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/667712d5-6482-4ba1-b676-03a7adfc404f" />
 
 ##changelog
+
 -Part 2 
+
 -Date:2025-09-23
 . The HTML homepage there were changes made :
 Added class and div elements to better orgaonse the content and and make styling easier.
+
 Removed the u element because underling the text looked unprofessional with the font .
+
 Removed the remaining table ,tr and td elements for the images so that the flexbox could be used makin it easy to maintain .
+
 Added a link for a font call Story Script so the main headings could look stylish and different .
+
 Changed order promtion now! call to action to capital letters.
 
 
