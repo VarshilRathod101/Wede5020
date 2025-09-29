@@ -127,6 +127,30 @@ iamhe 3
 
 4.So after being a Royal Customer get 15% promotion from R200 and above.
 
+#Research 
+Pick up and deliver.
+Collection
+Collection takes place at the nearest Royal Cakes.
+Come with your order number or phone number to confirm your order.
+Collection can take place during bakery hours.
+Delivery
+Order will be delivered to your door. For delivery a additional price is added depending on the length of traveling. You can also use Mr D
+About us 
+Our Values
+•	Quality: Quality always comes first at Royal Cakes. Best ingredients are always picked. Satisfying our customer fully by baking with care and following high standards while making cakes, cupcakes and pastries.
+•	Creativity: All our products have meanings. Having skilled team members with talents and passion creating tasty and fresh products. This makes every bite at events memorable and enjoyable.
+•	Care: Every step of baking is made with love. From mixing to decorating. Royal cakes have kind and friendly service. To make every customer feel special we pay close attention to their requirements.
+Orders an enquiry
+Please select which famous flavours you have consumed:
+Chocolate, Vanilla  and Strawberry
+Please select your best flavour :
+Chocolate,Vanilla,Red velvet,Carrot,Lemon,Strawberry,Coffee,Caramel and Oreo
+Contact
+Join the Royal family and follow us on:
+ Instagram
+ TikTok 
+
+
 -Date :2025-09-21
 
 Updated the Part 1 commits by adding more detail of the html changes like improvement to the  banners ,images layout ,tutorial page ,Instagram and TikTok page links and the footers.
