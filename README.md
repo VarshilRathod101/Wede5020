@@ -158,27 +158,27 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 #Homepage screenshots
 
 ##Desktop
-![](screenshots/screenshots_desktop1.png)
-![](screenshots/screenshots_desktop2.png)
-![](screenshots/screenshots_desktop3.png)
-![](screenshots/screenshots_desktop4.png)
-![](screenshots/screenshots_desktop5.png)
-![](screenshots/screenshots_desktop6.png)
+![desktop 1](screenshots/screenshots_desktop1.png)
+![desktop 2](screenshots/screenshots_desktop2.png)
+![desktop 3](screenshots/screenshots_desktop3.png)
+![desktop 4](screenshots/screenshots_desktop4.png)
+![desktop 5](screenshots/screenshots_desktop5.png)
+![desktop 6](screenshots/screenshots_desktop6.png)
 
 ##Mobile 
-![](screenshots/screenshots_mobile1.png)
-![](screenshots/screenshots_mobile2.png)
-![](screenshots/screenshots_mobile3.png)
-![](screenshots/screenshots_mobile4.png)
-![](screenshots/screenshots_mobile5.png)
-![](screenshots/screenshots_mobile6.png)
-![](screenshots/screenshots_mobile7.png)
+![mobile 1](screenshots/screenshots_mobile1.png)
+![mobile 2](screenshots/screenshots_mobile2.png)
+![mobile 3](screenshots/screenshots_mobile3.png)
+![mobile 4](screenshots/screenshots_mobile4.png)
+![mobile 5](screenshots/screenshots_mobile5.png)
+![mobile 6](screenshots/screenshots_mobile6.png)
+![mobile 7 ](screenshots/screenshots_mobile7.png)
 
 ##Tablet
-![](screenshots/screenshots_tablet1.png)
-![](screenshots/screenshots_tablet2.png)
-![](screenshots/screenshots_tablet3.png)
-![](screenshots/screenshots_tablet4.png)
+![tablet 1](screenshots/screenshots_tablet1.png)
+![tablet 2](screenshots/screenshots_tablet2.png)
+![tablet 3](screenshots/screenshots_tablet3.png)
+![tablet 4](screenshots/screenshots_tablet4.png)
 
 
 -Part 2 
