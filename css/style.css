@@ -1,0 +1,941 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* body style */
+body {
+    background: rgb(0, 0, 0);
+    /* */
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    /* space between lines*/
+    padding: 1.25rem;
+}
+
+/* page padding */
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1.375rem;
+    text-decoration: underline;
+    /* underlining to sub heading*/
+    font-weight: 600;
+}
+
+
+
+/* Navigation bar */
+nav {
+    background: rgb(0, 0, 0);
+    display: flex;
+    /* layout to be side to side */
+    justify-content: center;
+    /*nav items are centered*/
+    list-style: none;
+    /*removal the bullets */
+    height: 5rem;
+    margin: 0;
+    padding-top: 0.8125rem;
+    /*spacing of top*/
+}
+
+nav ul {
+    list-style: none;
+    gap: 1.5625rem;
+    /*space with nav*/
+    display: flex;
+}
+
+nav a {
+    display: inline-block;
+    /*nav sit next to each other*/
+    padding: 0.75rem 1.5625rem;
+    text-decoration: none;
+    /*removal of underline*/
+    color: rgb(255, 237, 102);
+    background: rgb(0, 0, 0);
+    border: 2px solid white;
+    /*outline for the nav*/
+    border-radius: 2.1875rem;
+    /* rounds up button*/
+    transition: border-color 0.3s, box-shadow 0.3s;
+    /*hover effect*/
+    height: auto;
+}
+
+nav a:hover {
+    border-color: #FFD700;
+    box-shadow: 0 0 0.625rem #FFD700, 0 0 1.25rem #FFD700
+        /*gives glow effect*/
+}
+
+/* Head banners */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    /*in start its invisible*/
+    transform: scale(0.8);
+    /*smaller at start*/
+    animation: popIn 1s ease forwards;
+    box-shadow: 0 0 0.8125rem #FFD700;
+
+}
+
+#home {
+    margin-top: 1.25rem;
+}
+
+/*banner animation*/
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Introduction */
+.main-title {
+    font-family: 'Story Script', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: #FFD700;
+    text-shadow: 0 0 1px #FFD700, 0 0 2px #FFD700;
+    font-weight: 700;
+
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.4375rem;
+    font-weight: 400;
+}
+
+/* Call to action button */
+.button-box {
+    text-align: center;
+    margin-top: 1.5625rem;
+}
+
+/*action button*/
+.ctn {
+    display: inline-block;
+    border: 2px solid #FFD700;
+    border-radius: 1.25rem;
+    transition: all ease-in-out 0.5s;
+    background: rgb(0, 0, 0);
+    color: #FFD700;
+    font-size: 1.3em;
+    padding: 0.875rem 2.1875rem;
+}
+
+.ctn:hover,
+button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #FFD700;
+    transform: translateY(-0.25em);
+}
+
+/* Promotion section */
+h2 {
+    color: aqua;
+    margin-top: 1.25rem;
+    text-align: left;
+    padding: 1.25rem;
+
+}
+
+.card-container,
+.mini-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    gap: 3.125rem;
+}
+
+.cake-card img,
+.mini-cake img {
+    width: 18.75rem;
+    height: 21.875rem;
+    display: block;
+    transition: transform 0.3s, filter 0.3s;
+    border-radius: 1.25rem;
+}
+
+.cake-card img:hover {
+    transform: scale(1.15) translateZ(0);
+    box-shadow: 0 0 20px 5px aqua;
+}
+
+.caption {
+    color: aqua;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+/* Promotions for cupcakes and pastries */
+#mini {
+    color: lawngreen;
+}
+
+.mini-cake img:hover {
+    transform: scale(1.15) translateZ(0);
+    box-shadow: 0 0 1.25rem 0.3125rem lawngreen;
+}
+
+.mini-caption {
+    color: lawngreen;
+    margin-top: 1.875rem;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Royal membership card */
+#pinky {
+    color: rgb(255, 105, 180);
+    text-align: center;
+}
+
+ol li {
+
+    margin: 1.25rem;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* deliver and pick up */
+#card {
+    display: block;
+    margin: 2.5rem auto 0 auto;
+    box-shadow: 0 0 1.25rem 0.1875rem rgb(255, 105, 180);
+    width: 25rem;
+    height: 15.625rem;
+}
+
+.deliver {
+    align-items: center;
+    text-align: center;
+}
+
+#pick-up {
+    color: #FF8C00;
+    margin-top: 50px;
+
+}
+
+
+h4 {
+    color: #FF9900;
+    margin-top: 20px;
+}
+
+#mr-d {
+    margin-top: 30px;
+    box-shadow: 0 0 20px 3px #FF8C00;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 250px;
+}
+
+
+/* Mission section*/
+.mission h2 {
+    text-align: center;
+}
+
+.mission {
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgb(0, 255, 255, 0.5);
+}
+
+.mission figure {
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mission figure img,
+.vision figure img,
+.team figure img {
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+.mission figure figcaption {
+    color: aqua;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Vision section */
+.vision h2 {
+    color: lawngreen;
+    text-align: center;
+}
+
+.vision {
+    background-color: black;
+    border: 2px solid lawngreen;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgb(124, 252, 0, 0.5);
+}
+
+.vision figure {
+    background-color: black;
+    border: 2px solid lawngreen;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vision figure figcaption {
+    color: lawngreen;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Team members */
+.team h2 {
+    color: rgb(255, 105, 180);
+    text-align: center;
+}
+
+.team {
+    background-color: black;
+    border: 2px solid rgb(255, 105, 180);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgb(255, 105, 180, 0.5);
+}
+
+.team figure {
+    background-color: black;
+    border: 2px solid rgb(255, 105, 180);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team figure figcaption {
+    color: rgb(255, 105, 180);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Royal Cakes values section */
+.values strong {
+    color: #FF9900;
+}
+
+.values h3 {
+    color: #FF8C00;
+    margin-top: 20px;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.values li {
+    background-color: black;
+    color: white;
+    border: 2px solid #FF8C00;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #FF8C00;
+}
+
+/*Product section*/
+.cake p {
+    text-align: center;
+}
+
+/*layout for products*/
+.wed-cake,
+.cust-cake,
+.cup-cake,
+.pastries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*4 equal colums */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.wed-cake figure,
+.cust-cake figure,
+.cup-cake,
+.pastries {
+    text-align: center;
+}
+
+/*wedding cakes image styling  */
+.wed-cake img {
+    width: 265px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px aqua;
+}
+
+/*custom cakes image styling*/
+.cust-cake img {
+    width: 265px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px lawngreen;
+}
+
+#green {
+    color: lawngreen;
+}
+
+
+#past {
+    color: #FF8C00;
+}
+
+/*Cupcake image styling*/
+.cup-cake img {
+    width: 265px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(255, 105, 180);
+}
+
+#pink {
+    color: rgb(255, 105, 180);
+}
+
+/*pastries image styling*/
+.pastries img {
+    width: 265px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #FF8C00;
+}
+
+.wed-cake figcaption {
+    color: aqua;
+}
+
+.cust-cake {
+    color: lawngreen;
+}
+
+.cup-cake {
+    color: rgb(255, 105, 180);
+}
+
+.pastries {
+    color: #FF8C00;
+    margin-bottom: 20px;
+}
+
+/*orders and enquiry section*/
+
+/*order image styling*/
+.order-card img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 3px solid #FFD700;
+    box-shadow: 0 0 20px #FFD700;
+}
+
+/*stying the form and review section*/
+form,
+.review {
+    width: 400px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+/*submit button for order section*/
+.order-card input[type="submit"] {
+    background-color: #FFD700;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*input and textarea styling*/
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid #FFD700;
+    /*gold underline*/
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    /*no backgorund*/
+    color: white;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+/*focus effects for inputs and textarea*/
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #b38f00;
+    box-shadow: 0 0 10px #FFD700;
+}
+
+/*review section label styling*/
+.review label {
+    font-weight: bold;
+    color: aqua;
+}
+
+/*inputs and textarea styuling for review*/
+.review input,
+.review textarea {
+    border: none;
+    border-bottom: 2px solid aqua;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+/*focus effect for input and textarea in review*/
+.review input:focus,
+.review textarea:focus {
+    outline: none;
+    border-color: #00cccc;
+    box-shadow: 0 0 10px aqua;
+}
+
+
+/*flavour selection section*/
+.flavour {
+    color: lawngreen;
+    width: 400px;
+}
+
+/*radio and checkbox button*/
+.flavour label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+/*styling radio and checkbox*/
+.flavour input[type=checkbox],
+.flavour input[type=radio] {
+    margin: 0%;
+    outline: none;
+    box-shadow: none;
+}
+
+.flavour p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 10px;
+}
+
+/*submit button for review ,radio and checkbox */
+.submit input[type="submit"] {
+    background-color: lawngreen;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+    border-bottom: #00cccc;
+    box-shadow: none;
+    margin-bottom: 50px;
+}
+
+/*tutorial section*/
+/*contianer for clips*/
+.clips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 30px auto;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+/*video stying*/
+.clips video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #FFD700;
+    transition: 0.2s, box-sizing 0.2s;
+}
+
+.clips video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #FFD700;
+}
+
+/*contact section*/
+address h2 {
+    color: aqua;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.information h3 {
+    color: lawngreen;
+    text-align: left;
+}
+
+.information h4 {
+    color: rgb(255, 105, 180);
+}
+
+.information h5 {
+    color: #FF8C00;
+}
+
+/*map section*/
+#map {
+    text-align: left;
+    padding: 20px;
+}
+
+.map-container {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.map-container figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-container img {
+    border-radius: 12px;
+    border: 5px solid rgb(255, 105, 180);
+    box-shadow: 0 0 15px rgb(255, 105, 180);
+    margin-bottom: 10px;
+
+}
+
+.map-container figcaption {
+    color: rgb(255, 105, 180);
+    margin-bottom: 15px;
+}
+
+a i {
+    margin-right: 8px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+a:hover i {
+    color: #FF8C00;
+}
+
+/*Media queries for tablet and mobile*/
+@media (min-width:768px) and (max-width:1023px) {
+
+    /*navigation section*/
+    nav {
+        height: 70px;
+        padding-top: 10px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .main-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .intro {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*action button*/
+    .ctn {
+        padding: 12px 30px;
+        font-size: 1.2em;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mini-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+        margin-top: 20px;
+    }
+
+    .mini-cake img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+    /*about section*/
+    .mission,
+    .vision,
+    .team {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    /*product layout*/
+    .card-container,
+    .wed-cake,
+    .cust-cake,
+    .cup-cake,
+    .pastries,
+    .clips {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+
+    /*product image sizing*/
+    .wed-cake img,
+    .cust-cake img,
+    .cup-cake img,
+    .pastries img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .order-card form,
+    .review,
+    .flavour,
+    .submit input[type="submit"] {
+        width: 100%;
+    }
+
+    /*video section*/
+    .clips video {
+        width: 100%;
+    }
+
+    /*map section*/
+    .map-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .map-container img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .detail {
+        text-align: left
+    }
+}
+
+@media(max-width:768px) {
+
+    /*navigation */
+    nav {
+        margin-bottom: 80px;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        flex: 1 1 30%;
+        text-align: center;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .main-titles {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .intro {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*promotion layout*/
+    .card-container,
+    .mini-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mini-cake {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /*promotion image sizing*/
+    .cake-card img,
+    .mini-cake img {
+        width: 100%;
+        max-width: 275px;
+        height: 275px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+
+    #card,
+    #mr-d {
+        width: 100%;
+        max-width: 300px;
+        height: 250px;
+    }
+
+    /*product layout*/
+    .wed-cake,
+    .cust-cake,
+    .cup-cake,
+    .pastries {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
+        align-items: start;
+        margin: 10px;
+    }
+
+    /*product image sizing*/
+    .wed-cake img,
+    .cust-cake img,
+    .cup-cake img,
+    .pastries img {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    /*video section*/
+    .clips {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .clips video {
+        width: 100%;
+        height: auto;
+    }
+
+    /*map section*/
+    .map-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .map-container img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
