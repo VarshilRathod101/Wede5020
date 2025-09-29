@@ -42,6 +42,7 @@ Tutorial(tutorial.html)
 Contact us(contact)
 
 ##Changelog
+
 -Part 1
 -Date:2025-08-20
  Made improvement in head banners of the webiste adding better images using Photopea.This makes the banners nicer and more beautiful.
@@ -70,14 +71,20 @@ Updated sitemap by adding inforamtion to each page of whats gonana be there and 
 Updated proposal and research.
 
 Part 1 feedback improvement 
+
 -Date : 2025-09 -20 
 Change in proposal Design Aesthetic :
 •	Colour scheme: Black background with bright colors .Gold for headings and buttons ,aqua for promotions ,lawn green for mini promotions and pink for team and cupcakes and white for text .
+
 •	typography: Heading(h1) Story Script cursive , 4 rem desktop ,3rem tablet ,2rem phone . Saubheadings(h2-h5) Arial or Helvetica ,22px desktop ,20px tablet and mobile . Body text 23px for intro paragraphs desktop , 20px for tablet intro and 15 px for phone and the rest of the body 17px.
 •	The font hierarchy makes sure for clear readability.
-•	Layout and Design: Navigation: clear with hover effects improves discoverability .Responsiveness : Media queries made sure layout ,font sizes and images across desktop ,tablet and phone . Readably and easy access: High contrast text on dark background making it clear to see .Visual cues: hover effects on images ,buttons and the enquiry section . Content hierarchy: large headings ,images have glow boarders and spacing to ensure easy to read texts.
+
+•	Layout and Design: Navigation: clear with hover effects improves discoverability .Responsiveness : Media queries made sure layout ,font sizes and images across desktop ,tablet and phone . Readably and easy access: High contrast text on dark background making it clear to see .Visual cues: hover effects on images ,buttons and the enquiry section .
+
+Content hierarchy: large headings ,images have glow boarders and spacing to ensure easy to read texts.
 •	User Experience: Clear images, easy navigation consistent colours for making it easy for customer. 
 .Change in the Proposal: Wireframes 
+
 .(Navigation)
 Home
 About Us
@@ -85,19 +92,24 @@ Products
 Orders and Enquiry
 Tutorial
 Contact
+
 .(Banner)
 Head Banner with the comapny logo 
+
 .(Introduction )
 Welcome to Royal Cakes
 Making every moment special enjoy our Royal Cakes cupcakes, delightful cakes and pastries.
 Whether its a weddings, birthdays or just a sweet treat for yourself.
 Choose from variety of flavours, personal messages or customised designs. Online orders will be ready within 3 days.
+
 .(Call to action )
 ORDER PROMOTIONS NOW!
+
 Promotions:
 image 1
 iamge 2
 iamhe 3 
+
 .(Royal membership)
 1.Go to your nearest Royal Cakes.
 2.Provide your phone number and give your name to register as an official customer.
@@ -107,6 +119,7 @@ iamhe 3
 Updated the Part 1 commits by adding more detail of the html changes like improvement to the  banners ,images layout ,tutorial page ,Instagram and TikTok page links and the footers.
 
 #Homepage screenshots
+
 ##Desktop
 
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/714372c4-4ba8-4d75-aebf-5f593015c585" />
@@ -125,6 +138,13 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4883d4b-cf1c-4479-a002-f8070b49f9e4" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/cc0a877b-5892-449a-b65d-034f77aebfb5" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2f946932-411b-4efe-be37-d2aefd661641" />
+
+##Tablet
+
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/3aff14f9-cba0-4a27-926e-2479872a72f4" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/4a3d4f6a-0cee-4905-ae91-400209c4e8d7" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0ccbe8c1-e79a-4533-aff5-ce6c6182af8a" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/667712d5-6482-4ba1-b676-03a7adfc404f" />
 
 ##changelog
 -Part 2 
