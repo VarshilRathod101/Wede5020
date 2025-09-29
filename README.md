@@ -234,7 +234,8 @@ Decided to give the tutorial videos a hover due to it being a simple page .
 Changed head banner width and height to max-width: 100% height: auto;  width: 100%; had them fixed at  height of 350px and width of 1525px  .
 Added a introduction paragraph for the contact page  .
 
-##Referances
+##Referances part 1
+
 The wedding cake store,2019. :4 layers vanilla and blueberry wedding cake. [electronic print]. Available at:< https://www.weddingcakestoreli.com/wcs-flavors-and-fillings.php > [Accessed 22 August 2025].
 
 Stnish,2025. Sider man double layer cake [image online]. Available at:< https://www.cakecentral.com/gallery/i/3109476/cake-by-trisha-stnish > [Accessed 22 August 2025].
