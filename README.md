@@ -169,15 +169,15 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 ![mobile 2](screenshots/screenshots_mobile2.png)
 
 .Sumsung s20 ultra
-![mobile 3](screenshots/screenshots_mobile3.png)
-![mobile 4](screenshots/screenshots_mobile4.png)
+![mobile 3](screenshots/screenshot_mobile3.png)
+![mobile 4](screenshots/screenshot_mobile4.png)
 
 
 ##Tablet
-![tablet 1](screenshots/screenshots_tablet1.png)
-![tablet 2](screenshots/screenshots_tablet2.png)
-![tablet 3](screenshots/screenshots_tablet3.png)
-![tablet 4](screenshots/screenshots_tablet4.png)
+![tablet 1](screenshots/screenshot_tablet1.png)
+![tablet 2](screenshots/screenshot_tablet2.png)
+![tablet 3](screenshots/screenshot_tablet3.png)
+![tablet 4](screenshots/screenshot_tablet4.png)
 
 
 -Part 2 
