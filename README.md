@@ -164,10 +164,15 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 ![](screenshots/screenshots_desktop4.png)
 ![](screenshots/screenshots_desktop5.png)
 ![](screenshots/screenshots_desktop6.png)
+
 ##Mobile 
-
-
-
+![](screenshots/screenshots_mobile1.png)
+![](screenshots/screenshots_mobile2.png)
+![](screenshots/screenshots_mobile3.png)
+![](screenshots/screenshots_mobile4.png)
+![](screenshots/screenshots_mobile5.png)
+![](screenshots/screenshots_mobile6.png)
+![](screenshots/screenshots_mobile7.png)
 ##Tablet
 
 
