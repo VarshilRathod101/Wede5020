@@ -158,30 +158,16 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 #Homepage screenshots
 
 ##Desktop
+![](screenshots/screenshots_desktop1)
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/714372c4-4ba8-4d75-aebf-5f593015c585" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/fb3c307c-0be5-40d1-a945-c9847f4b30e4" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/00feaf3f-3d78-4da1-8b0d-34e485b167ee" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/46a49ef3-8ea1-4c08-ba67-1aa422ee2a3e" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/812318b6-519d-44e8-b727-4085ea873e0c" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/6fd45f7e-2aa5-455b-bdf7-10f20ea0c7b4" />
 
 ##Mobile 
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/5ca06817-6dfc-493f-a1a3-0985c6b5ce29" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4db06c5-8f3c-4384-925b-e05d66cdab90" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/342dca73-6ec2-4e38-b40c-5717f40f9fb1" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/aca50dc2-c3ef-4be9-8dcc-261e304afaf8" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4883d4b-cf1c-4479-a002-f8070b49f9e4" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/cc0a877b-5892-449a-b65d-034f77aebfb5" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2f946932-411b-4efe-be37-d2aefd661641" />
+
 
 ##Tablet
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/3aff14f9-cba0-4a27-926e-2479872a72f4" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/4a3d4f6a-0cee-4905-ae91-400209c4e8d7" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0ccbe8c1-e79a-4533-aff5-ce6c6182af8a" />
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/667712d5-6482-4ba1-b676-03a7adfc404f" />
+
 
 
 
