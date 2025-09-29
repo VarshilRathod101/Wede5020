@@ -164,9 +164,11 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 
 
 ##Mobile 
-
+.Iphone 12 pro
 ![mobile 1](screenshots/screenshots_mobile1.png)
 ![mobile 2](screenshots/screenshots_mobile2.png)
+
+.
 ![mobile 3](screenshots/screenshots_mobile3.png)
 ![mobile 4](screenshots/screenshots_mobile4.png)
 
