@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Cakes-Home</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
 
         <!--Navigation bar-->
-
         <nav>
+
 
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,164 +29,144 @@
 
         </nav>
 
-        <br>
-
-
         <!-- Homepage head banner-->
-        <img src="images/homepage_banner.png" alt="Royal Cakes homepage head banner showing cakes and company logo"
-            width="1525" height="350">
-
+        <div class="banner">
+            <img id=home src="images/homepage_banner.png"
+                alt="Royal Cakes homepage head banner showing cakes and company logo">
+        </div>
 
     </header>
 
     <main>
         <!--Introduction-->
-        <h1><u>Welcome to Royal Cakes</u></h1>
-        <p>Making every moment <b>special</b> enjoy our Royal Cakes cupcakes, tasteful cakes and pastries.</p>
-        <p>Can be weddings, birthdays or just a <i>sweet treat for yourself</i>.</p>
-        <p>Having different flavours, personal message and design. Online orders will be ready within 3 days.</p>
+        <div class="intro">
+            <h1 class="main-title">Welcome to Royal Cakes</h1>
+            <p>Making every moment <b>special</b> enjoy our Royal Cakes cupcakes, delightful cakes and pastries.</p>
+            <p> Whether its a weddings, birthdays or just a <i>sweet treat for yourself</i>.</p>
+            <p> Choose from variety of flavours, personal messages or customised designs. Online orders will be ready
+                within 3 days.</p>
+        </div>
+
 
         <!--Call to action button-->
-        <a href="enquiry.html">Order promotions now</a>
+        <div class="button-box">
+            <a href="enquiry.html" class="ctn">ORDER PROMOTIONS NOW!</a>
+        </div>
 
-        <!--Promotion section-->
-        <h2><u>Promotions</u></h2>
+        <section class="Promotions">
 
-        <!--Best seller cakes-->
-        <h3><u>Top 3 bestselling cakes:</u></h3>
-        <table>
-            <!--promotion row1-->
-            <tr>
-                <td>
-                    <figure>
-                        <img src="images/homepage_cake1.jpg" alt="White wedding cake decorated with White flowers"
-                            width="265" height="265">
-                        <figcaption>
-                            White Romance <br>
-                            <strong>Was:</strong><s> R5000</s><br>
-                            <strong>Now:</strong>R4000
-                        </figcaption>
-                    </figure>
-                </td>
+            <!--Promotion section-->
+            <h2>Promotions:</h2>
 
-                <td>
-                    <figure>
-                        <img src="images/homepage_cake2.jpg" alt="A customised Spiderman cake " width="265"
-                            height="265">
-                        <figcaption>
-                            Spidey Town <br>
-                            <strong>Was:</strong><s> R1400</s><br>
-                            <strong>Now:</strong>R1000
-                        </figcaption>
-                    </figure>
-                </td>
+            <div class="card-container">
 
-                <td>
-                    <figure>
-                        <img src="images/homepage_cake3.jpg" alt="Chocolate cake with Chocolate drizzle on top"
-                            width="265" height="265">
-                        <figcaption>
-                            Chocolate Delight Cake <br>
-                            <strong>Was:</strong> <s> R1100</s><br>
-                            <strong>Now:</strong>R900
-                        </figcaption>
-                    </figure>
-                </td>
-            </tr>
+                <!--promotion row1-->
 
-        </table>
+                <figure class="cake-card">
+                    <img src="images/homepage_cake1.jpg" alt="White wedding cake decorated with White flowers"
+                        width="265" height="265">
+
+                    <figcaption class="caption">
+                        White Romance <br>
+                        <strong>Was:</strong><s> R5000</s><br>
+                        <strong>Now:</strong>R4000
+                    </figcaption>
+                </figure>
+
+                <figure class="cake-card">
+                    <img src="images/homepage_cake2.jpg" alt="A customised Spiderman cake " width="265" height="265">
+                    <figcaption class="caption">
+                        Spidey Town <br>
+                        <strong>Was:</strong><s> R1400</s><br>
+                        <strong>Now:</strong>R1000
+                    </figcaption>
+                </figure>
+
+                <figure class="cake-card">
+                    <img src="images/homepage_cake3.jpg" alt="Chocolate cake with Chocolate drizzle on top" width="265"
+                        height="265">
+                    <figcaption class="caption">
+                        Chocolate Delight Cake <br>
+                        <strong>Was:</strong> <s> R1100</s><br>
+                        <strong>Now:</strong>R900
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
 
         <!--Promotions for cupcakes and pastries-->
-        <h2><u>Mini promotions</u></h2>
 
-        <table>
-            <!--mini promotion row1-->
-            <tr>
-                <td>
-                    <figure>
-                        <img src="images/homepage_cupcake1.webp" alt="Chocolate cupcakes with mini Chocolate bar"
-                            width="265" height="265">
-                        <figcaption>
-                            Choco Cupcakes <br>
-                            <strong>Was:</strong> <s> 6 for R200</s><br>
-                            <strong>Now:</strong> 6 for R150
-                        </figcaption>
-                    </figure>
-                </td>
+        <h2 id="mini">Mini promotions:</h2>
 
-                <td>
-                    <figure>
-                        <img src="images/homepage_cupcake4.webp" alt="Blueberry cupcakes with mini snowflake"
-                            width="265" height="265">
-                        <figcaption>
-                            Snow cupcakes <br>
-                            <strong>Was:</strong><s> 4 for R180</s><br>
-                            <strong>Now:</strong> 4 for R120
-                        </figcaption>
-                    </figure>
-                </td>
+        <!--mini promotion row1-->
+        <div class="mini-container">
+            <figure class="mini-cake">
+                <img src="images/homepage_cupcake1.webp" alt="Chocolate cupcakes with mini Chocolate bar" width="265"
+                    height="265">
+                <figcaption class="mini-caption">
+                    Choco Cupcakes <br>
+                    <strong>Was:</strong> <s> 6 for R200</s><br>
+                    <strong>Now:</strong> 6 for R150
+                </figcaption>
+            </figure>
 
-                <td>
-                    <figure>
-                        <img src="images/homepage_pastry1.webp"
-                            alt="Circular coconut puffs with whipped cream in the middle" width="265" height="265">
-                        <figcaption>
-                            Coconuty puffs <br>
-                            <strong>Was:</strong><s> 5 for R80</s><br>
-                            <strong>Now:</strong> 5 for R50
-                        </figcaption>
-                    </figure>
-                </td>
+            <figure class="mini-cake">
+                <img src="images/homepage_cupcake4.webp" alt="Blueberry cupcakes with mini snowflake" width="265"
+                    height="265">
+                <figcaption class="mini-caption">
+                    Snow cupcakes <br>
+                    <strong>Was:</strong><s> 4 for R180</s><br>
+                    <strong>Now:</strong> 4 for R120
+                </figcaption>
+            </figure>
 
-                <td>
-                    <figure>
-                        <img src="images/homepage_pastry4.webp" alt="French pastry with raisins" width="265"
-                            height="265">
-                        <figcaption>
-                            Pain Aux Raisins <br>
-                            <strong>Was:</strong><s> 3 for R150</s><br>
-                            <strong>Now:</strong> 3 for R100
-                        </figcaption>
-                    </figure>
-                </td>
-            </tr>
+            <figure class="mini-cake">
+                <img src="images/homepage_pastry1.webp" alt="Circular coconut puffs with whipped cream in the middle"
+                    width="265" height="265">
+                <figcaption class="mini-caption">
+                    Coconuty puffs <br>
+                    <strong>Was:</strong><s> 5 for R80</s><br>
+                    <strong>Now:</strong> 5 for R50
+                </figcaption>
+            </figure>
 
-        </table>
+            <figure class="mini-cake">
+                <img src="images/homepage_pastry4.webp" alt="French pastry with raisins" width="265" height="265">
+                <figcaption class="mini-caption">
+                    Pain Aux Raisins <br>
+                    <strong>Was:</strong><s> 3 for R150</s><br>
+                    <strong>Now:</strong> 3 for R100
+                </figcaption>
+            </figure>
 
-        <h2><u>Royal membership</u></h2>
+        </div>
+
+        <!--Royal membership card-->
+        <h2 id="pinky">Royal membership</h2>
+
         <ol>
             <li>Go to your nearest Royal Cakes.</li>
-            <li>Provide your phone number and give your name to register as a official customer.</li>
+            <li>Provide your phone number and give your name to register as an official customer.</li>
             <li>After buying 15 items you will become a Royal Customer. </li>
-            <li>So after being a Royal Customer get 5% promotion from R120 and above.</li>
+            <li>So after being a Royal Customer get 15% promotion from R200 and above.</li>
         </ol>
-        <img src="images/homepage_card.jpeg" alt="Royal memebership card" width="400" height="250">
+        <img id="card" src="images/homepage_card.jpeg" alt="Royal memebership card">
 
+        <!--Information about deliver and pick up-->
+        <section class="deliver">
+            <h3 id="pick-up">Pick up and deliver.</h3>
 
-        <h3><u>Pick up and deliver options.</u></h3>
+            <h4>Collection</h4>
+            <p>Collection takes place at the nearest Royal Cakes.</p>
+            <p>Come with your order number or phone number to confirm your order.</p>
+            <p>Collection can take place during bakery hours.</p>
 
-        <h4><u>Collection</u></h4>
-        <p>Collection takes place at the nearest Royal Cakes.</p>
-        <p>Come with your order number or phone number to confirm your order.</p>
-        <p></p>Collection can take place during bakery hours.</p>
-
-        <h4><u>Delivery</u></h4>
-        <p>Order will be delivered to your door. For delivery a additional price is added depending on the length of
-            traveling. You can also use Mr D.</p>
-<img src="images/homepage_mr.jpeg" alt="Mr D logo" width="400" height="250">
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <h4>Delivery</h4>
+            <p>Order will be delivered to your door. For delivery a additional price is added depending on the length of
+                traveling. You can also use Mr D.</p>
+            <img id="mr-d" src="images/homepage_mr.jpeg" alt="Mr D logo">
+        </section>
     </main>
 
     <hr>
