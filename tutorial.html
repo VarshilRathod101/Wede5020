@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,57 +29,55 @@
         <br>
 
         <!--Tutorial head banner-->
-        <img src="images/tutorial_banner.png" alt=" Royal Cakes tutorial banner with cupcakes and pastries ."
-            width="1525" height="350">
+        <div class="banner">
+            <img src="images/tutorial_banner.png" alt=" Royal Cakes tutorial banner with cupcakes and pastries ."
+                width="1525" height="350">
+        </div>
 
     </header>
 
     <main>
+
         <!--introduction-->
-        <h1><u>See it.Bake it.Love it</u></h1>
-        <p>Welcome to our tutorials where we show you quick and easy baking videos. Get to learn how to make delicious
-            cakes, cupcakes and pastiers in no time. </p>
+        <section class="film">
+            <div class="intro">
+                <h1 class="main-title">See it.Bake it.Love it</h1>
+                <p>Welcome to our tutorials where we show you quick and easy baking videos. Get to learn how to make
+                    delicious
+                    cakes, cupcakes and pastiers in no time. </p>
 
-        <p>The videos are short ,simple and exciting guiding you step by step
-            to create sweet products.</p>
+                <p>The videos are short ,simple and exciting guiding you step by step
+                    to create sweet products.</p>
+            </div>
 
-        <!--quick videos in table-->
-        <table>
+
+            <!--quick videos in table-->
+
             <!--video row1-->
-            <tr>
-                <td>
-                    <video src="videos/tutorial_vid1.mp4" preload="metadata" controls loop height="700">
-                        Your browser does not support the video tag
-                    </video>
-                </td>
+            <div class="clips">
+                <video src="videos/tutorial_vid1.mp4" preload="metadata" controls loop height="700">
+                    Your browser does not support the video tag
+                </video>
 
-                <td>
-                    <video src="videos/tutorial_vid2.mp4" preload="metadata" controls loop height="700">
-                        Your browser does not support the video tag
-                    </video>
-                </td>
-            </tr>
+                <video src="videos/tutorial_vid2.mp4" preload="metadata" controls loop height="700">
+                    Your browser does not support the video tag
+                </video>
 
 
 
-            <tr>
+
                 <!--video row2-->
-                <td>
-                    <video src="videos/tutorial_vid3.mp4" preload="metadata" controls loop height="700">
-                        Your browser does not support the video tag
 
-                    </video>
-                </td>
+                <video src="videos/tutorial_vid3.mp4" preload="metadata" controls loop height="700">
+                    Your browser does not support the video tag
 
-                <td>
-                    <video src="videos/tutorial_vid4.mp4" preload="metadata" controls loop height="700">
-                        Your browser does not support the video tag
-                    </video>
-                </td>
-            </tr>
+                </video>
 
-        </table>
-
+                <video src="videos/tutorial_vid4.mp4" preload="metadata" controls loop height="700">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+        </section>
     </main>
 
     <hr>
