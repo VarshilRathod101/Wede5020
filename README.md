@@ -174,8 +174,11 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 
 
 ##Tablet
+.Ipad Air
 ![tablet 1](screenshots/screenshot_tablet1.png)
 ![tablet 2](screenshots/screenshot_tablet2.png)
+
+.Surface pro 7
 ![tablet 3](screenshots/screenshot_tablet3.png)
 ![tablet 4](screenshots/screenshot_tablet4.png)
 
