@@ -108,6 +108,7 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 
 #Homepage screenshots
 ##Desktop
+
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/714372c4-4ba8-4d75-aebf-5f593015c585" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/fb3c307c-0be5-40d1-a945-c9847f4b30e4" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/00feaf3f-3d78-4da1-8b0d-34e485b167ee" />
@@ -116,6 +117,7 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/6fd45f7e-2aa5-455b-bdf7-10f20ea0c7b4" />
 
 ##Mobile 
+
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/5ca06817-6dfc-493f-a1a3-0985c6b5ce29" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4db06c5-8f3c-4384-925b-e05d66cdab90" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/342dca73-6ec2-4e38-b40c-5717f40f9fb1" />
