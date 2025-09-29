@@ -238,12 +238,26 @@ Added a introduction paragraph for the contact page  .
 
 The wedding cake store,2019. :4 layers vanilla and blueberry wedding cake. [electronic print]. Available at:< https://www.weddingcakestoreli.com/wcs-flavors-and-fillings.php > [Accessed 22 August 2025].
 
-Stnish,2025. Sider man double layer cake [image online]. Available at:< https://www.cakecentral.com/gallery/i/3109476/cake-by-trisha-stnish > [Accessed 22 August 2025].
+Stnish,2025. Spider man double layer cake [image online]. Available at:< https://www.cakecentral.com/gallery/i/3109476/cake-by-trisha-stnish > [Accessed 22 August 2025].
 
 @ Kitchen Creations Recipes, 2025. Easy heaven chocolate cake. [Facebook]. March 11. Available at: < https://www.facebook.com/61556768371111/posts/easy-chocolate-heaven-cakewhat-you-needfor-the-chocolate-cake2-cups-flour2-cups-/122218364558225612/ >[Accessed 22 July 2021].
 
 Grasekamp, 2024.Chocolate cupcakes. [electronic print]. Available at: < https://bonnibakery.com/chocolate-cupcakes-with-silky-chocolate-buttercream/   > [Accessed 22 August 2025].
 
 Da vine foods,2025. Coconut Lilikoi Puff Pastries. [electronic print]. Available at: <  https://davinehawaii.com    > [Accessed 22 August 2025].
+
+##Referances Part 2 
+
+Google Fonts ,2025.Story Script ,cursive,[online] Avilable at:< https://fonts.google.com/specimen/Agila >[ Accessed 23 September 2025].
+
+Font Awsome,2025 . Icons for Instagram and Tiktok .[online] Available at : <https://fontawesome.com/> [Accessed 26 September 2025].
+
+McKenney,S.2025. Sally's Baking Addiction .[online] Available at : < https://sallysbakingaddiction.com/caramel-apple-turnovers/ > [Accessed 25 September 2025].
+
+Floxo,2025.A Delightful Dance of Layers and Flavors.[online] Available at : <https://floxo.store/the-mille-feuille-a-delightful-dance-of-layers-and-flavors/ > [Accessed 25 September 2025].
+
+W3schools.2025. Css Tutorial .[online] Available at:< https://www.w3schools.com/ > [Accessed 27,28,29 September 2025]
+
+
 
 
