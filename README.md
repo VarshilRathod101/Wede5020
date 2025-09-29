@@ -106,7 +106,7 @@ iamhe 3
 -Date :2025-09-21
 Updated the Part 1 commits by adding more detail of the html changes like improvement to the  banners ,images layout ,tutorial page ,Instagram and TikTok page links and the footers.
 
-![Desktop picutre 1](<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/714372c4-4ba8-4d75-aebf-5f593015c585" />)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/714372c4-4ba8-4d75-aebf-5f593015c585" />
 
 
 ##changelog
