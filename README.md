@@ -106,7 +106,7 @@ iamhe 3
 -Date :2025-09-21
 Updated the Part 1 commits by adding more detail of the html changes like improvement to the  banners ,images layout ,tutorial page ,Instagram and TikTok page links and the footers.
 
-![]
+![Desktop picutre 1](https://github.com/VarshilRathod101/Wede5020-part1/tree/91e5bc0e4bb76e615f92bcab5b3001738f877703/screenshots)
 
 
 ##changelog
