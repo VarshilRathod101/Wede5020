@@ -146,10 +146,40 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0ccbe8c1-e79a-4533-aff5-ce6c6182af8a" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/667712d5-6482-4ba1-b676-03a7adfc404f" />
 
-##changelog
+
 
 -Part 2 
 
+#css styling for desktop 
+
+##External Stylesheet 
+.Created an external css file called style.css.
+.Linked the css file to the home, about us, products, orders and enquiry ,tutorial and contact html pages.
+
+#Base style 
+Css reset: is used and uses margin:0; padding:0; box-sizing: border-box .This makes sure all elements start the same way in every brewers .Removing extra spacing and keeping layouts consistent .
+
+body: element uses black background with white text ,Arial or Helvetica as a default font ,Font size of 1.0625rem and a line-height of 1.6 for comfortable reading and padding of 20px .
+
+color scheme and theme: a dark background black with bright colors for headings like gold, aqua, lawn green ,pink and orange .The colors are also used for buttons ,hover effects ,image cards and giving good visually .
+
+Media Queries : breakpoints applied are (768px-1023px) for tablets and (max-width:768px) layouts changed form multiply columns grinds to one or two column grids . Images ,navigation ,videos and font change as the screen changes .
+
+Navigation : Flexbox is used for horizontal menu .Buttons have white borders ,round corners and gold hover effect .
+
+Forms: the inputs and textareas have bottom borders and focus effects for better usability .
+
+Mission ,vision and team sections have coloured boarders ,padding and round images  with captions matching there border colors .
+
+#Typography style 
+
+Font: Arial .Helvetica ,sans-serif and  Story Script ,cursive .
+
+Line-height 1.6 adds extra space between the text and makes paragraph much easier to read preventing the text to look crowed .
+
+Main heading h1 Font size 4rem was used very large and bold so the website title can catch attention , Sub headings h2,h3,h4,h5 font size is 22px keeping them large enough to be seen important as h1.h1 's paragraph is 1.4375rem its a little bigger than the normal body text making it easy to introduce the main points . 
+
+##changelog
 -Date:2025-09-23
 . The HTML homepage there were changes made :
 Added class and div elements to better orgaonse the content and and make styling easier.
