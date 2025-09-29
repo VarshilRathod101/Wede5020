@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Cakes-Order and Enquiry</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,59 +33,73 @@
         <br>
 
         <!-- Order and enquiry head banner-->
-        <img src="images/enquiry_banner.png" alt="" width="1520" height="350">
+        <div class="banner">
+            <img src="images/enquiry_banner.png" alt="" width="1525" height="350">
+        </div>
 
     </header>
 
     <main>
-        <!--Order section-->
-        <h1><u>Customer order</u></h1>
+        <section class=order-section>
+            <!--Order section-->
+            <div class="intro">
+                <h1 class="main-title">Customer Order</h1>
+                <p>Please fill in the form below to place your order .Make sure to include all the details such as
+                    product
+                    name,description and contact information. You may also upload a image to help us prepare your order
+                    just the way you like it .We will get back to you as soon as possible .</p>
+            </div>
 
-        <!--image of order list-->
-        <img src="images/enquiry_list.png" alt="order list" width="285" height="200">
+            <div class="order-card">
+                <!--image of order list-->
+                <img src="images/enquiry_list.png" alt="order list" width="285" height="200">
 
-        <form action="mailto:RoyalCakes4Life@gmail.com" method="post" enctype="text/plain">
+                <form action="mailto:RoyalCakes4Life@gmail.com" method="post" enctype="text/plain">
 
-            <!--customer name-->
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Enter your full name" required size="30"
-                maxlength="50"><br><br>
+                    <!--customer name-->
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your full name" required size="30"
+                        maxlength="50"><br><br>
 
-            <!--customer email-->
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required size="30"
-                maxlength="50"><br><br>
+                    <!--customer email-->
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required size="30"
+                        maxlength="50"><br><br>
 
-            <!--customer password-->
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="Enter your password" required size="30"
-                maxlength="50" minlength="8"><br><br>
+                    <!--customer password-->
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required
+                        size="30" maxlength="50" minlength="8"><br><br>
 
-            <!--customer number-->
-            <label for="phone">Phone number:</label>
-            <input type="tel" name="phone" id="phone" placeholder="Enter your number" required size="15"
-                maxlength="15"><br><br>
+                    <!--customer number-->
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your number" required size="15"
+                        maxlength="15"><br><br>
 
-            <!--customer description-->
-            <label for="description">Order description:</label><br>
-            <textarea name="description" id="description" placeholder="Enter product name or description" required
-                rows="5" cols="50" maxlength="500"></textarea><br><br>
+                    <!--customer description-->
+                    <label for="description">Order description:</label><br>
+                    <textarea name="description" id="description" placeholder="Enter product name or description"
+                        required rows="5" cols="50" maxlength="500"></textarea><br><br>
 
-            <!--optional customer image-->
-            <label for="image">Upload images(optional)</label>
-            <input type="file" name="image" id="image" accept="image/*"><br><br>
+                    <!--optional customer image-->
+                    <label for="image">Upload images(optional)</label>
+                    <input type="file" name="image" id="image" accept="image/*"><br><br>
 
-            <!--Submission for order-->
-            <input type="submit" value="submit">
+                    <!--Submission for order-->
+                    <input type="submit" value="submit">
 
-        </form>
+
+                </form>
+            </div>
+        </section>
         <br>
 
         <!--review section-->
-        <fieldset>
 
-            <!--customer username-->
-            <legend>Customer review</legend>
+
+        <!--customer username-->
+        <div class="review">
+            <h2>Customer review</h2>
             <label for="name">Username</label>
             <input type="text" name="name" placeholder="Enter your Username" required size="30" maxlength="50"><br><br>
 
@@ -96,42 +114,48 @@
 
             <!--customer review-->
             <label for="review">Review:</label><br>
-            <textarea name="review" id="review" placeholder="Enter your review" required rows="5" cols="50"
-                maxlength="500"></textarea><br><br>
+            <textarea id="aqua-review" name="review" id="review" placeholder="Enter your review" required rows="5"
+                cols="50" maxlength="500"></textarea><br><br>
+        </div>
 
+        <div class="flavour">
             <!--checkbox for famous flavours consumed -->
             <p>Please select which famous flavours you have consumed:
                 <br>
-                <input type="checkbox" name="service" value="chocolate" checked="checked">Chocolate
+                <label><input type="checkbox" name="service" value="chocolate" checked="checked">Chocolate</label>
 
-                <input type="checkbox" name="service" value="vanilla" checked="checked">Vanilla
+                <label><input type="checkbox" name="service" value="vanilla" checked="checked">Vanilla</label>
 
-                <input type="checkbox" name="service" value="strawberry" checked="checked">Strawberry
+                <label><input type="checkbox" name="service" value="strawberry" checked="checked">Strawberry</label>
 
             </p>
 
             <!--radio for best flavour-->
             <p>Please select your best flavour :
                 <br>
-                <input type="radio" name="flavour" value="chocolate" checked="checked"> Chocolate
-                <input type="radio" name="flavour" value="vanilla"> Vanilla
-                <input type="radio" name="flavour" value="red velvet"> Red velvet
-                <input type="radio" name="flavour" value="carrot"> Carrot
-                <input type="radio" name="flavour" value="lemon"> Lemon
-                <input type="radio" name="flavour" value="strawberry"> Strawberry
-                <input type="radio" name="flavour" value="coffee"> Coffee
-                <input type="radio" name="flavour" value="caramel"> Caramel
-                <input type="radio" name="flavour" value="oreo"> Oreo
+                <label> <input type="radio" name="flavour" value="chocolate" checked="checked"> Chocolate</label>
+                <label><input type="radio" name="flavour" value="vanilla"> Vanilla</label>
+                <label> <input type="radio" name="flavour" value="red velvet"> Red velvet</label>
+                <label> <input type="radio" name="flavour" value="carrot"> Carrot</label>
+                <label><input type="radio" name="flavour" value="lemon"> Lemon</label>
+                <label> <input type="radio" name="flavour" value="strawberry"> Strawberry</label>
+                <label> <input type="radio" name="flavour" value="coffee"> Coffee</label>
+                <label> <input type="radio" name="flavour" value="caramel"> Caramel</label>
+                <label> <input type="radio" name="flavour" value="oreo"> Oreo</label>
 
             </p>
+        </div>
 
-            <!--submission for review-->
+
+        <!--submission for review-->
+        <div class="submit">
             <input type="submit" value="Submit">
+        </div>
 
-        </fieldset>
 
     </main>
 
+    <hr>
     <!--Footer section-->
     <footer>
         <p>&copy; 2025 Royal Cakes. All rights reserved.</p>
