@@ -153,10 +153,12 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 #css styling for desktop 
 
 ##External Stylesheet 
+
 .Created an external css file called style.css.
 -Linked the css file to the home, about us, products, orders and enquiry ,tutorial and contact html pages.
 
 #Base style 
+
 -Css reset: is used and uses margin:0; padding:0; box-sizing: border-box .This makes sure all elements start the same way in every brewers .Removing extra spacing and keeping layouts consistent .
 
 -body: element uses black background with white text ,Arial or Helvetica as a default font ,Font size of 1.0625rem and a line-height of 1.6 for comfortable reading and padding of 20px .
