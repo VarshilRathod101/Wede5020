@@ -73,16 +73,24 @@ Updated proposal and research.
 Part 1 feedback improvement 
 
 -Date : 2025-09 -20 
+
 Change in proposal Design Aesthetic :
+
 •	Colour scheme: Black background with bright colors .Gold for headings and buttons ,aqua for promotions ,lawn green for mini promotions and pink for team and cupcakes and white for text .
 
 •	typography: Heading(h1) Story Script cursive , 4 rem desktop ,3rem tablet ,2rem phone . Saubheadings(h2-h5) Arial or Helvetica ,22px desktop ,20px tablet and mobile . Body text 23px for intro paragraphs desktop , 20px for tablet intro and 15 px for phone and the rest of the body 17px.
 •	The font hierarchy makes sure for clear readability.
 
-•	Layout and Design: Navigation: clear with hover effects improves discoverability .Responsiveness : Media queries made sure layout ,font sizes and images across desktop ,tablet and phone . Readably and easy access: High contrast text on dark background making it clear to see .Visual cues: hover effects on images ,buttons and the enquiry section .
+•	Layout and Design: Navigation: clear with hover effects improves discoverability .
+
+Responsiveness : Media queries made sure layout ,font sizes and images across desktop ,tablet and phone . Readably and easy access:
+
+High contrast text on dark background making it clear to see .Visual cues: hover effects on images ,buttons and the enquiry section .
 
 Content hierarchy: large headings ,images have glow boarders and spacing to ensure easy to read texts.
-•	User Experience: Clear images, easy navigation consistent colours for making it easy for customer. 
+
+User Experience: Clear images, easy navigation consistent colours for making it easy for customer. 
+
 .Change in the Proposal: Wireframes 
 
 .(Navigation)
@@ -112,10 +120,15 @@ iamhe 3
 
 .(Royal membership)
 1.Go to your nearest Royal Cakes.
+
 2.Provide your phone number and give your name to register as an official customer.
+
 3.After buying 15 items you will become a Royal Customer.
+
 4.So after being a Royal Customer get 15% promotion from R200 and above.
+
 -Date :2025-09-21
+
 Updated the Part 1 commits by adding more detail of the html changes like improvement to the  banners ,images layout ,tutorial page ,Instagram and TikTok page links and the footers.
 
 #Homepage screenshots
