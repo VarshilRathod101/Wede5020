@@ -154,34 +154,34 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 
 ##External Stylesheet 
 .Created an external css file called style.css.
-.Linked the css file to the home, about us, products, orders and enquiry ,tutorial and contact html pages.
+-Linked the css file to the home, about us, products, orders and enquiry ,tutorial and contact html pages.
 
 #Base style 
-Css reset: is used and uses margin:0; padding:0; box-sizing: border-box .This makes sure all elements start the same way in every brewers .Removing extra spacing and keeping layouts consistent .
+-Css reset: is used and uses margin:0; padding:0; box-sizing: border-box .This makes sure all elements start the same way in every brewers .Removing extra spacing and keeping layouts consistent .
 
-body: element uses black background with white text ,Arial or Helvetica as a default font ,Font size of 1.0625rem and a line-height of 1.6 for comfortable reading and padding of 20px .
+-body: element uses black background with white text ,Arial or Helvetica as a default font ,Font size of 1.0625rem and a line-height of 1.6 for comfortable reading and padding of 20px .
 
-color scheme and theme: a dark background black with bright colors for headings like gold, aqua, lawn green ,pink and orange .The colors are also used for buttons ,hover effects ,image cards and giving good visually .
+-color scheme and theme: a dark background black with bright colors for headings like gold, aqua, lawn green ,pink and orange .The colors are also used for buttons ,hover effects ,image cards and giving good visually .
 
-Media Queries : breakpoints applied are (768px-1023px) for tablets and (max-width:768px) layouts changed form multiply columns grinds to one or two column grids . Images ,navigation ,videos and font change as the screen changes .
+-Media Queries : breakpoints applied are (768px-1023px) for tablets and (max-width:768px) layouts changed form multiply columns grinds to one or two column grids . Images ,navigation ,videos and font change as the screen changes .
 
-Navigation : Flexbox is used for horizontal menu .Buttons have white borders ,round corners and gold hover effect .
+-Navigation : Flexbox is used for horizontal menu .Buttons have white borders ,round corners and gold hover effect .
 
-Forms: the inputs and textareas have bottom borders and focus effects for better usability .
+-Forms: the inputs and textareas have bottom borders and focus effects for better usability .
 
-Mission ,vision and team sections have coloured boarders ,padding and round images  with captions matching there border colors .
+-Mission ,vision and team sections have coloured boarders ,padding and round images  with captions matching there border colors .
 
 #Typography style 
 
-Font: Arial .Helvetica ,sans-serif and  Story Script ,cursive .
+-Font: Arial .Helvetica ,sans-serif and  Story Script ,cursive .
 
-Line-height 1.6 adds extra space between the text and makes paragraph much easier to read preventing the text to look crowed .
+-Line-height 1.6 adds extra space between the text and makes paragraph much easier to read preventing the text to look crowed .
 
-Main heading h1 Font size 4rem was used very large and bold so the website title can catch attention , Sub headings h2,h3,h4,h5 font size is 22px keeping them large enough to be seen important as h1.h1 's paragraph is 1.4375rem its a little bigger than the normal body text making it easy to introduce the main points . 
+-Main heading h1 Font size 4rem was used very large and bold so the website title can catch attention , Sub headings h2,h3,h4,h5 font size is 22px keeping them large enough to be seen important as h1.h1 's paragraph is 1.4375rem its a little bigger than the normal body text making it easy to introduce the main points . 
 
 ##changelog
 -Date:2025-09-23
-. The HTML homepage there were changes made :
+. The HTML pages these were changes made :
 Added class and div elements to better orgaonse the content and and make styling easier.
 
 Removed the u element because underling the text looked unprofessional with the font .
@@ -192,11 +192,28 @@ Added a link for a font call Story Script so the main headings could look stylis
 
 Changed order promtion now! call to action to capital letters.
 
+-Date:2025-09-24 
+Navigation was uneven were in squares so i changed it to flexbox added round buttons making it neat and in the middle .
 
+The head banner was to simple so added a gold glow to the border and a animation popin to have a great entrance for the website .
 
+Added css comments for the homepage and about page  as i was done with it .
 
+-Date:2025-09-25
+In the production page there were 4 pastry images add so it could be equal to the cupcake images .
 
+The pictures were set but were lacking attraction so added hover effect to the homepage images and glow boarder effect for the product images .
 
+Captions of the images were pure white making the website less colorful so change those captions with the images border colors . 
+
+-Date:2025-09-26
+Downloaded and added icon for Instagram and TikTok link page for the Royal Cakes .Giving both a orange hover colour .
+
+Decided to give the tutorial videos a hover due to it being a simple page . 
+
+-Date:2025-09-27 
+Changed head banner width and height to max-width: 100% height: auto;  width: 100%; had them fixed at  height of 350px and width of 1525px  .
+Added a introduction paragraph for the contact page  .
 
 ##Referances
 The wedding cake store,2019. :4 layers vanilla and blueberry wedding cake. [electronic print]. Available at:< https://www.weddingcakestoreli.com/wcs-flavors-and-fillings.php > [Accessed 22 August 2025].
