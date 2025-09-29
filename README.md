@@ -115,6 +115,14 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/812318b6-519d-44e8-b727-4085ea873e0c" />
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/6fd45f7e-2aa5-455b-bdf7-10f20ea0c7b4" />
 
+##Mobile 
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/5ca06817-6dfc-493f-a1a3-0985c6b5ce29" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4db06c5-8f3c-4384-925b-e05d66cdab90" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/342dca73-6ec2-4e38-b40c-5717f40f9fb1" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/aca50dc2-c3ef-4be9-8dcc-261e304afaf8" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/c4883d4b-cf1c-4479-a002-f8070b49f9e4" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/cc0a877b-5892-449a-b65d-034f77aebfb5" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/2f946932-411b-4efe-be37-d2aefd661641" />
 
 ##changelog
 -Part 2 
