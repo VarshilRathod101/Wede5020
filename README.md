@@ -182,8 +182,11 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 -Main heading h1 Font size 4rem was used very large and bold so the website title can catch attention , Sub headings h2,h3,h4,h5 font size is 22px keeping them large enough to be seen important as h1.h1 's paragraph is 1.4375rem its a little bigger than the normal body text making it easy to introduce the main points . 
 
 ##changelog
+
 -Date:2025-09-23
+
 . The HTML pages these were changes made :
+
 Added class and div elements to better orgaonse the content and and make styling easier.
 
 Removed the u element because underling the text looked unprofessional with the font .
@@ -195,6 +198,7 @@ Added a link for a font call Story Script so the main headings could look stylis
 Changed order promtion now! call to action to capital letters.
 
 -Date:2025-09-24 
+
 Navigation was uneven were in squares so i changed it to flexbox added round buttons making it neat and in the middle .
 
 The head banner was to simple so added a gold glow to the border and a animation popin to have a great entrance for the website .
