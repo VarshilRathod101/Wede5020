@@ -158,21 +158,18 @@ Updated the Part 1 commits by adding more detail of the html changes like improv
 #Homepage screenshots
 
 ##Desktop
+.hp laptop 1366px , 768px
 ![desktop 1](screenshots/screenshots_desktop1.png)
 ![desktop 2](screenshots/screenshots_desktop2.png)
-![desktop 3](screenshots/screenshots_desktop3.png)
-![desktop 4](screenshots/screenshots_desktop4.png)
-![desktop 5](screenshots/screenshots_desktop5.png)
-![desktop 6](screenshots/screenshots_desktop6.png)
+
 
 ##Mobile 
+
 ![mobile 1](screenshots/screenshots_mobile1.png)
 ![mobile 2](screenshots/screenshots_mobile2.png)
 ![mobile 3](screenshots/screenshots_mobile3.png)
 ![mobile 4](screenshots/screenshots_mobile4.png)
-![mobile 5](screenshots/screenshots_mobile5.png)
-![mobile 6](screenshots/screenshots_mobile6.png)
-![mobile 7 ](screenshots/screenshots_mobile7.png)
+
 
 ##Tablet
 ![tablet 1](screenshots/screenshots_tablet1.png)
