@@ -43,8 +43,7 @@ nav {
     /*removal the bullets */
     height: 5rem;
     margin: 0;
-    padding-top: 0.8125rem;
-    /*spacing of top*/
+    padding: 0;
 }
 
 nav ul {
@@ -76,6 +75,7 @@ nav a:hover {
     box-shadow: 0 0 0.625rem #FFD700, 0 0 1.25rem #FFD700
         /*gives glow effect*/
 }
+
 
 /* Head banners */
 .banner img {
@@ -255,6 +255,11 @@ h4 {
     width: 400px;
     height: 250px;
 }
+#card, #mr-d {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
 
 
 /* Mission section*/
@@ -548,6 +553,9 @@ textarea:focus {
     box-shadow: 0 0 10px aqua;
 }
 
+#contact_us {
+    color: #FFD700;
+}
 
 /*flavour selection section*/
 .flavour {
@@ -667,6 +675,22 @@ address h2 {
     margin-bottom: 15px;
 }
 
+/* Error messages */
+.error-message {
+    color: #FF8C00; /* orange to match your theme */
+    font-size: 0.875rem;
+    margin-top: 5px;
+    text-shadow: 0 0 2px #FFD700; /* subtle glow */
+}
+
+/* Highlight invalid fields */
+input.invalid, textarea.invalid {
+    border-color: #FF8C00;
+    box-shadow: 0 0 8px #FF8C00;
+}
+
+
+
 a i {
     margin-right: 8px;
     color: #ffffff;
@@ -676,6 +700,140 @@ a i {
 a:hover i {
     color: #FF8C00;
 }
+
+/* Lightbox container */
+.lightbox {
+    display: none; /* hidden by default */
+    position: fixed;
+    z-index: 999; /* on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9); /* dark overlay */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lightbox image with glow */
+.lightbox-content {
+     max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 10px #FFD700; /* golden glow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Optional: slightly enlarge image on appear */
+.lightbox-content.show {
+    transform: scale(1.05);
+}
+
+/* Close button */
+.lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lightbox .close:hover {
+    color: #FFD700;
+}
+/* Glow colors */
+.glow-aqua {
+    box-shadow: 0 0 30px 10px aqua;
+}
+
+.glow-lawngreen {
+    box-shadow: 0 0 30px 10px lawngreen;
+}
+
+.tutorial-section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.tutorial-section h1 {
+    font-family: 'Story Script', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color:#FF8C00 ;
+    text-shadow: 0 0 1px #FF8C00, 0 0 2px #FF8C00;
+    font-weight: 700;
+}
+    
+
+/* Accordion buttons */
+.accordion {
+    width: 100%;
+    background:  #000000;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    transition: 0.3s;
+    margin-top: 10px;
+
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+
+.accordion:hover {
+    background: #FF8C00;
+}
+
+.accordion.active {
+    background:  #FF8C00;
+    color: white;
+}
+.accordion::after {
+    content: "▼";
+    float: right;
+    transition: transform 0.3s;
+}
+
+.accordion.active::after {
+    transform: rotate(180deg);
+}
+
+
+/* Panel (content) */
+.panel {
+    padding: 15px 20px;
+    display: none;
+    overflow: hidden;
+    background: #000000;
+    border: 1px solid #ddd;
+    border-radius: 0 0 6px 6px;
+}
+
+.panel img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 5px solid #FF8C00;
+}
+
+.panel ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.panel ul li {
+    margin-bottom: 6px;
+}
+
 
 /*Media queries for tablet and mobile*/
 @media (min-width:768px) and (max-width:1023px) {
