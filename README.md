@@ -256,6 +256,117 @@ Decided to give the tutorial videos a hover due to it being a simple page .
 Changed head banner width and height to max-width: 100% height: auto;  width: 100%; had them fixed at  height of 350px and width of 1525px  .
 Added a introduction paragraph for the contact page  .
 
+Part 2 feedback improvement 
+
+-External Stylesheet
+
+An external CSS file named style.css was created and linked to all pages: index.html, about.html, products.html, orders.html, enquiry.html, tutorial.html, and contact.html.
+Centralizing all styles in one file ensures consistency across pages and simplifies future updates or enhancements.
+
+-Base Styles
+
+CSS Reset:
+margin: 0; padding: 0; box-sizing: border-box;
+Ensures consistent spacing and layout behavior across all browsers, eliminating unexpected gaps and default styling
+
+Body Styling:
+Background color: black (#000000) for a sleek, modern look
+Text color: white (#ffffff) for high contrast and readability
+Font: Arial, Helvetica, sans-serif for standard content; Story Script, cursive for main headings to add visual elegance
+Font size: 1.0625rem for readable text
+Line-height: 1.6 for comfortable reading
+Padding: 20px prevents content from touching screen edges
+
+Color Scheme & Theme:
+ark theme with bright accent colors: gold, aqua, lawn green, pink, and orange
+Colors used for headings, buttons, hover effects, image captions, and borders
+Enhances visual hierarchy and creates a cohesive design
+
+Media Queries / Responsive Design:
+Tablet (768px–1023px): Adjusts navigation, banners, headings, product layouts, forms, videos, and maps; switches multi-column layouts to 2-column grids
+Mobile (≤768px): Converts layouts to single or two-column grids; resizes images, text, navigation, and videos to fit smaller screens
+
+-Navigation
+
+Horizontal navigation bar built using Flexbox
+Styling:
+White borders, rounded corners, nd hover glow in gold
+Uniform padding ensures clickable areas are user-friendly
+Centered alignment for balance and symmetry
+Fully responsive: adjusts spacing, font sizes, and button widths for tablets and mobile devices
+
+-Hero Banner & Animations
+
+Hero banners: max-width: 100%; height: auto ensures images scale properly without distortion
+Keyframe animation (popIn) used: starts small and semi-transparent, then scales to full size with opacity transition
+Golden glow added with box-shadow to highlight hero banners and create a visually striking entrance
+
+
+-Sections: Mission, Vision, Team
+
+Colored borders match the section’s theme (aqua, lawn green, pink)
+Rounded images (border-radius) create a modern look
+Captions below images use color-coordinated text to enhance readability
+Padding and spacing ensure content is not crowded and maintains a clean layout
+Subtle box shadows add depth and visual separation
+
+-Product & Promotion Cards
+
+roducts (Wedding Cakes, Custom Cakes, Cupcakes, Pastries):
+Grid layouts (display: grid) with equal-width columns
+Hover effects: scale-up and glow (transform: scale(1.15); box-shadow) for interactive feedback
+Captions colored o match the border or section theme
+Promotional cards and mini-containers:
+Flexbox layout for equal spacing
+Hover glow applied to images for visual emphasis
+Rounded corners and shadows enhance modern design
+
+-Buttons & Call-to-Actions
+
+Call-to-action buttons styled with:
+Borders and rouned corners (border-radius)
+Hover lift effect: subtle movement on hover (transform: translateY(-0.25em))
+Glow (box-shadow) matching the theme color
+Submit buttons in forms follow the same theme, maintaining consistency
+
+-Forms
+
+nput fields and textareas:
+Bottom borders in theme colors (gold or aqua)
+Focus effects with glow highlight to indicate active fields
+Consistent spacing and alignment for readability
+Section-specific forms:
+Order and review forms designed with clear structure
+Labels bolded and colored to match the theme
+
+-Typography
+
+Input fields and textareas:
+Bottom borders in theme colors (gold or aqua)
+Focus effects with glow highlight to indicate active fields
+Consistent spacing and alignment for readability
+Section-specific forms:
+Order and review forms designed with clear structure
+Labels bolded and colored to match the theme
+
+-Images
+
+Rounded corners (border-radius) applied consistently
+Hover effects: scale-up and glow to indicate interactivity
+Captions color-coordinated with borders or section theme
+Shadow effects (box-shadow) create depth and highlight images
+
+
+-Grids and Layouts
+
+Flexible grids for products and tutorials:
+Multi-column layouts for desktop
+Adjusted to 2 columns for tablets and single column for mobile
+Flexbox and grid combination used for responsive, balanced layout
+Gap spacing ensures elements do not overlap and content is visually organised
+
+
+
 -PART 3
 
 -Accordions
