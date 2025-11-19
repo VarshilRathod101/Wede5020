@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Royal Cakes Tutorials - Easy Baking Guides for Cakes, Cupcakes & Pastries</title>
+    <meta name="description"
+        content="Learn how to bake delicious cakes, cupcakes, and pastries with Royal Cakes’ easy tutorials. Step-by-step video guides and tips for using baking equipment effectively.">
+    <meta name="keywords"
+        content="baking tutorials, cake baking tips, cupcake tutorials, pastry guides, Royal Cakes videos, baking equipment tips">
+    <meta name="author" content="Royal Cakes">
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,9 +69,6 @@
                     Your browser does not support the video tag
                 </video>
 
-
-
-
                 <!--video row2-->
 
                 <video src="videos/tutorial_vid3.mp4" preload="metadata" controls loop height="700">
@@ -78,6 +81,70 @@
                 </video>
             </div>
         </section>
+
+        <!-- Lightbox container -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+
+        <section class="tutorial-section">
+            <h1>Baking Equipment Tips</h1>
+
+            <!-- 1. Measuring Cups -->
+            <button class="accordion">Measuring Cups</button>
+            <div class="panel">
+                <img src="images/tutorial_tip1.webp" alt="Measuring Cups">
+                <ul>
+                    <li>Use dry cups for dry ingredients and liquid cups for liquids.</li>
+                    <li>Always level dry ingredients with a straight edge.</li>
+                    <li>Check liquid measurements at eye level.</li>
+                    <li>Dont pack flour into the cup; it makes recipes heavy.</li>
+                    <li>Clean cups immediately after using sticky ingredients.</li>
+                </ul>
+            </div>
+
+            <!-- 2. Mixing Bowl -->
+            <button class="accordion">Mixing Bowl</button>
+            <div class="panel">
+                <img src="images/tutorial_tip2.jpg" alt="Mixing Bowl">
+                <ul>
+                    <li>Use a bigger bowl than you think you need to avoid spills.</li>
+                    <li>Chill bowls before whipping cream.</li>
+                    <li>Use glass/metal bowls for mixing they dont absorb smells.</li>
+                    <li>Dont use plastic bowls for egg whites; they wont whip well.</li>
+                    <li>Keep one bowl only for baking to avoid flavour contamination.</li>
+                </ul>
+            </div>
+
+            <!-- 3. Rolling Pin -->
+            <button class="accordion">Rolling Pin</button>
+            <div class="panel">
+                <img src="images/tutorial_tip3.webp" alt="Rolling Pin">
+                <ul>
+                    <li>Flour the rolling pin often to prevent sticking.</li>
+                    <li>Roll dough from the center outward for even thickness.</li>
+                    <li>Chill the dough before rolling.</li>
+                    <li>Use parchment paper to avoid making a mess.</li>
+                    <li>Clean wooden rolling pins by hand only (no dishwasher).</li>
+                </ul>
+            </div>
+
+            <!-- 4. Whisk -->
+            <button class="accordion">Whisk</button>
+            <div class="panel">
+                <img src="images/tutorial_tip4.jpg" alt="Whisk">
+                <ul>
+                    <li>Use a balloon whisk for whipping air into mixtures.</li>
+                    <li>Use a flat whisk for sauces.</li>
+                    <li>Whisk in a figure-8 motion for best results.</li>
+                    <li>Dry whisks completely to avoid rust.</li>
+                    <li>Use a whisk instead of a fork for smoother mixtures.</li>
+                </ul>
+            </div>
+        </section>
+
+
     </main>
 
     <hr>
@@ -86,7 +153,7 @@
     <footer>
         <p>&copy;2025 Royal Cakes. All rights reserved.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
