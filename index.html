@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Cakes-Home</title>
+    <title>Royal Cakes - delicious cakes , cupcakes and pastries in Johannesburg</title>
+
+    <meta name="description "
+        content=" Discover Royal Cakes in Johannesburg!Enjoy a variety of delicious cakes ,cupcakes and pastries for weddings , birthdays and special occasions.Order online or visit our store for custom designs and promotion .">
+    <meta name="keywords"
+        content="cakes in Johannesburg , cupcakes delivery Johanesburg ,custom cakes ,pastries ,wedding cakes ,birthday cakes ,online cake orders">
+    <meta name="author" content="Royal Cakes">
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +71,7 @@
 
                 <figure class="cake-card">
                     <img src="images/homepage_cake1.jpg" alt="White wedding cake decorated with White flowers"
-                        width="265" height="265">
+                        width="265" height="265" data-glow="aqua">
 
                     <figcaption class="caption">
                         White Romance <br>
@@ -74,7 +81,8 @@
                 </figure>
 
                 <figure class="cake-card">
-                    <img src="images/homepage_cake2.jpg" alt="A customised Spiderman cake " width="265" height="265">
+                    <img src="images/homepage_cake2.jpg" alt="A customised Spiderman cake " width="265" height="265"
+                        data-glow="aqua">
                     <figcaption class="caption">
                         Spidey Town <br>
                         <strong>Was:</strong><s> R1400</s><br>
@@ -84,7 +92,7 @@
 
                 <figure class="cake-card">
                     <img src="images/homepage_cake3.jpg" alt="Chocolate cake with Chocolate drizzle on top" width="265"
-                        height="265">
+                        height="265" data-glow="aqua">
                     <figcaption class="caption">
                         Chocolate Delight Cake <br>
                         <strong>Was:</strong> <s> R1100</s><br>
@@ -103,7 +111,7 @@
         <div class="mini-container">
             <figure class="mini-cake">
                 <img src="images/homepage_cupcake1.webp" alt="Chocolate cupcakes with mini Chocolate bar" width="265"
-                    height="265">
+                    height="265" data-glow="lawngreen">
                 <figcaption class="mini-caption">
                     Choco Cupcakes <br>
                     <strong>Was:</strong> <s> 6 for R200</s><br>
@@ -113,7 +121,7 @@
 
             <figure class="mini-cake">
                 <img src="images/homepage_cupcake4.webp" alt="Blueberry cupcakes with mini snowflake" width="265"
-                    height="265">
+                    height="265" data-glow="lawngreen">
                 <figcaption class="mini-caption">
                     Snow cupcakes <br>
                     <strong>Was:</strong><s> 4 for R180</s><br>
@@ -123,7 +131,7 @@
 
             <figure class="mini-cake">
                 <img src="images/homepage_pastry1.webp" alt="Circular coconut puffs with whipped cream in the middle"
-                    width="265" height="265">
+                    width="265" height="265" data-glow="lawngreen">
                 <figcaption class="mini-caption">
                     Coconuty puffs <br>
                     <strong>Was:</strong><s> 5 for R80</s><br>
@@ -132,7 +140,8 @@
             </figure>
 
             <figure class="mini-cake">
-                <img src="images/homepage_pastry4.webp" alt="French pastry with raisins" width="265" height="265">
+                <img src="images/homepage_pastry4.webp" alt="French pastry with raisins" width="265" height="265"
+                    data-glow="lawngreen">
                 <figcaption class="mini-caption">
                     Pain Aux Raisins <br>
                     <strong>Was:</strong><s> 3 for R150</s><br>
@@ -167,6 +176,13 @@
                 traveling. You can also use Mr D.</p>
             <img id="mr-d" src="images/homepage_mr.jpeg" alt="Mr D logo">
         </section>
+
+        <!-- Lightbox container -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+
     </main>
 
     <hr>
@@ -174,7 +190,7 @@
     <footer>
         <p>&copy; 2025 Royal Cakes. All rights reserved.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
