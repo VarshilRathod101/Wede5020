@@ -2,7 +2,6 @@
 // Wait until the DOM is loaded
 document.addEventListener('DOMContentLoaded', function () {
 
-
     // --- ORDER FORM VALIDATION ---
 
     const orderForm = document.getElementById('order-form');
@@ -96,9 +95,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
-
 const images = document.querySelectorAll('figure img');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
@@ -110,7 +106,7 @@ images.forEach(img => {
         lightboxImg.src = img.src;
 
         // Glow color from data attribute
-        if(img.dataset.glow){
+        if (img.dataset.glow) {
             lightboxImg.style.boxShadow = `0 0 30px 10px ${img.dataset.glow}`;
         } else {
             lightboxImg.style.boxShadow = '0 0 30px 10px #FFD700'; // default
@@ -145,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const main = document.querySelector('main');
     main.appendChild(noResults);
 
-    searchInput.addEventListener('input', function() {
+    searchInput.addEventListener('input', function () {
         const filter = searchInput.value.toLowerCase();
         let anyMatchOverall = false;
 
@@ -183,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const accordions = document.querySelectorAll('.accordion');
 
 accordions.forEach((accordion) => {
-    accordion.addEventListener('click', function() {
+    accordion.addEventListener('click', function () {
         this.classList.toggle('active');
 
         const panel = this.nextElementSibling;
@@ -195,5 +191,3 @@ accordions.forEach((accordion) => {
         }
     });
 });
-
-
